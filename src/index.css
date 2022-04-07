@@ -1,13 +1,108 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+}
+p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+h1 {
+  font-size: 6rem;
+  margin: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  position: relative;
 }
+
+.App:before {
+  content: '';
+  background-image: url(/pexels-lisa-fotios-1107717.jpg);
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+
+}
+
+.container {
+  max-width: 85%;
+  height: 85%;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.description {
+  position: relative;
+  left: 95%;
+  transform-origin: 0 0;
+  transform: rotate(270deg)
+
+}
+
+.location {
+  position: relative;
+  top: 10px;
+}
+
+.temp {
+  position: relative;
+  top: 15px;
+}
+
+
+.bottom {
+  display: flex;
+  margin: 1rem auto;
+  text-align: center;
+  padding: 1rem;
+  justify-content: space-around;
+  width: 100%;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.349);
+  box-sizing: border-box;
+}
+
+.bottom p{
+  font-size: 1.4rem;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+.opacity {
+  opacity: 0.8;
+}
+
+.search {
+  text-align: center;
+  padding: 1rem;
+}
+
+.search input {
+  padding: 0.75rem;
+  border-radius: 25px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid white;
+  color: white;
+  width: 50%;
+}
+ ::placeholder {
+   color: #fff;
+ }

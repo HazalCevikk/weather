@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 27.0923,
+        "lat": 38.4622
+    },
+    "weather": [
+        {
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 291.76,
+        "feels_like": 290.96,
+        "temp_min": 290.88,
+        "temp_max": 292.12,
+        "pressure": 1006,
+        "humidity": 49
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 8.23,
+        "deg": 110
+    },
+    "clouds": {
+        "all": 75
+    },
+    "dt": 1649322823,
+    "sys": {
+        "type": 1,
+        "id": 6979,
+        "country": "TR",
+        "sunrise": 1649303258,
+        "sunset": 1649349575
+    },
+    "timezone": 10800,
+    "id": 311044,
+    "name": "İzmir",
+    "cod": 200
+}
